@@ -1,0 +1,73 @@
+@font-face {
+  font-family: Exo;
+  src: url(../fonts/Exo_2/static/Exo2-Regular.ttf);
+}
+@font-face {
+  font-family: PT-sans;
+  src: url(../fonts/PT_Sans/PTSans-Regular.ttf);
+}
+p {
+  color: #6b6b6c;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1240px;
+}
+
+a,
+li,
+ul,
+ol {
+  list-style: none;
+  text-decoration: none;
+}
+
+.sec1 {
+  margin-top: 109px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 67px;
+}
+.sec1-text h1 {
+  font-family: Exo;
+  max-width: 559px;
+  font-size: 52px;
+  padding-bottom: 40px;
+}
+.sec1-text p {
+  max-width: 502px;
+  font-family: PT-sans;
+  padding-bottom: 40px;
+  font-size: 16px;
+}
+.sec1-text a {
+  font-family: PT-sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #363738;
+  border-bottom: 3px solid #ffce50;
+}
+
+.sec2-cards .sec2-card {
+  max-width: 228px;
+}
+.sec2-cards .sec2-card h3 {
+  font-family: Exo;
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+.sec2-cards .sec2-card p {
+  font-family: PT-sans;
+}/*# sourceMappingURL=style.css.map */
